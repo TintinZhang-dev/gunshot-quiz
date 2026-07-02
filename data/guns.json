@@ -1,0 +1,137 @@
+{
+  "categories": {
+    "pistol": { "name_zh": "手枪", "name_en": "Pistol" },
+    "rifle": { "name_zh": "步枪", "name_en": "Rifle" },
+    "smg": { "name_zh": "冲锋枪", "name_en": "SMG / PCC" },
+    "shotgun": { "name_zh": "霰弹枪", "name_en": "Shotgun" },
+    "special": { "name_zh": "特殊", "name_en": "Special" }
+  },
+  "guns": [
+    {
+      "id": "9mm-glock17",
+      "name": "9mm Parabellum",
+      "name_zh": "9mm 帕拉贝鲁姆",
+      "platform": "Glock 17",
+      "category": "pistol",
+      "description_zh": "声音中等偏低沉，枪声干脆利落。作为最普遍的手枪口径，9mm 的枪声在室内靶场有明显回声，室外则较为克制。后坐力声音紧凑。",
+      "description_en": "Moderate, crisp report. As the most common handgun caliber, 9mm produces a sharp but not overwhelming crack. Noticeable echo indoors, more subdued outdoors. Compact recoil signature."
+    },
+    {
+      "id": "45acp-m1911",
+      "name": ".45 ACP",
+      "name_zh": ".45 ACP",
+      "platform": "M1911",
+      "category": "pistol",
+      "description_zh": "低沉的'砰'声，比 9mm 更加厚重。.45 ACP 是亚音速弹药，枪声有明显的低频轰鸣感，像闷雷。M1911 的套筒声很有辨识度。",
+      "description_en": "Deep, booming 'thump' — thicker than 9mm. .45 ACP is subsonic, giving it a pronounced low-frequency boom like distant thunder. The M1911 slide has a distinctive mechanical ring."
+    },
+    {
+      "id": "357mag-revolver",
+      "name": ".357 Magnum",
+      "name_zh": ".357 马格南",
+      "platform": "Revolver",
+      "category": "pistol",
+      "description_zh": "极其响亮的爆裂声！.357 Magnum 是手枪里声音最震撼的之一，有强烈的超音速音爆。左轮的枪口焰也非常明显，声音尖锐刺耳。",
+      "description_en": "Extremely loud CRACK! .357 Magnum is one of the most thunderous handgun rounds. It produces a sharp supersonic snap with significant muzzle blast. Revolver cylinder gap adds extra report."
+    },
+    {
+      "id": "22lr-pistol",
+      "name": ".22 LR",
+      "name_zh": ".22 LR",
+      "platform": "Small Pistol",
+      "category": "pistol",
+      "description_zh": "像'啪'的一声，非常轻。.22 LR 是所有枪声里最安静的之一，几乎像气枪。没有明显的后坐力声音，适合新手入门辨别。",
+      "description_en": "A light 'pop' — very quiet. .22 LR is one of the quietest gunshots, almost like an air rifle. Minimal recoil noise. A good starting point for beginners to identify."
+    },
+    {
+      "id": "556-m4",
+      "name": "5.56×45mm NATO",
+      "name_zh": "5.56×45mm NATO",
+      "platform": "M4 / M16",
+      "category": "rifle",
+      "description_zh": "声音尖锐清脆，是步枪里声音最'脆'的。5.56mm 高速子弹产生明显的超音速音爆，枪声快而尖。M4 的短枪管让声音比 M16 更响亮。",
+      "description_en": "Sharp and crisp — the 'crispest' rifle round. The high-velocity 5.56mm produces a distinct supersonic crack. The report is fast and high-pitched. M4's shorter barrel makes it louder than the M16."
+    },
+    {
+      "id": "762x39-ak47",
+      "name": "7.62×39mm",
+      "name_zh": "7.62×39mm",
+      "platform": "AK-47",
+      "category": "rifle",
+      "description_zh": "低沉有力的'咚-咚-咚'。AK 的声音比 M4 更闷、更厚重，有一种标志性的低沉节奏。在全自动射击时尤其有辨识度——AK 的射速较慢，'哒-哒-哒'的节奏很独特。",
+      "description_en": "Deep, powerful 'thud-thud-thud'. The AK has a heavier, more muffled sound than the M4 with an iconic low-frequency rhythm. Full-auto is especially distinctive — the AK's slower cyclic rate creates a recognizable 'da-da-da' cadence."
+    },
+    {
+      "id": "762x51-m14",
+      "name": "7.62×51mm / .308",
+      "name_zh": "7.62×51mm / .308 Win",
+      "platform": "M14 / SR-25",
+      "category": "rifle",
+      "description_zh": "响亮的'砰！'——比 5.56 和 7.62×39 都更响更深沉。.308 是全威力步枪弹，枪声充满力量感，回声悠长。半自动射击时声音在远处也能清晰听到。",
+      "description_en": "Loud 'BOOM!' — louder and deeper than both 5.56 and 7.62×39. .308 is a full-power rifle cartridge with a commanding, long-echoing report. Semi-auto fire is clearly audible at great distances."
+    },
+    {
+      "id": "545x39-ak74",
+      "name": "5.45×39mm",
+      "name_zh": "5.45×39mm",
+      "platform": "AK-74",
+      "category": "rifle",
+      "description_zh": "介于 5.56 和 7.62×39 之间——比 5.56 稍微低沉，比 7.62×39 更尖。AK-74 的枪口制退器让声音有一种特殊的'噗'声，是与 AK-47 区分的要点。",
+      "description_en": "Between 5.56 and 7.62×39 — slightly deeper than 5.56 but sharper than 7.62×39. The AK-74's muzzle brake gives it a distinctive 'puff' sound, which is key to distinguishing it from the AK-47."
+    },
+    {
+      "id": "9mm-mp5",
+      "name": "9mm SMG",
+      "name_zh": "9mm 冲锋枪",
+      "platform": "MP5",
+      "category": "smg",
+      "description_zh": "轻柔的'哒哒哒'——MP5 以射速快、声音紧凑著称。作为冲锋枪，9mm 在长枪管里声音比手枪更闷一些。MP5 的滚柱闭锁机构让射速很高，形成连续的'咝咝'声。",
+      "description_en": "Smooth 'tat-tat-tat' — the MP5 is known for its fast cyclic rate and compact report. 9mm from a longer barrel sounds more muffled than from a pistol. The roller-delayed action produces a high rate of fire with a continuous 'zip' sound."
+    },
+    {
+      "id": "45acp-ump45",
+      "name": ".45 SMG",
+      "name_zh": ".45 冲锋枪",
+      "platform": "UMP45 / Thompson",
+      "category": "smg",
+      "description_zh": "低沉的连发声——.45 ACP 在冲锋枪上形成了缓慢而有节奏的'咚-咚-咚'。Thompson 的射速较慢，声音间隔清晰，每一个单发都充满低频重量感。",
+      "description_en": "Deep, slow full-auto — .45 ACP in a submachine gun creates a slow, rhythmic 'thump-thump-thump'. The Thompson has a notably slower cyclic rate with clear intervals between shots, each round carrying heavy low-end weight."
+    },
+    {
+      "id": "12ga-pump",
+      "name": "12 Gauge (Pump)",
+      "name_zh": "12号霰弹 (泵动)",
+      "platform": "Pump-Action",
+      "category": "shotgun",
+      "description_zh": "震耳欲聋的'轰！！'——12号霰弹枪是所有常规武器中最震撼的声音之一。泵动式特有的'咔嚓'上膛声是标志性特征。枪声巨大、低频强劲，在室内几乎震耳欲聋。",
+      "description_en": "Deafening 'BOOM!!' — 12 gauge is one of the most thunderous sounds among conventional weapons. The pump-action's distinctive 'chk-chk' racking sound is iconic. Massive report with powerful low-end, nearly deafening indoors."
+    },
+    {
+      "id": "12ga-semi",
+      "name": "12 Gauge (Semi-Auto)",
+      "name_zh": "12号霰弹 (半自动)",
+      "platform": "Semi-Auto",
+      "category": "shotgun",
+      "description_zh": "与泵动式相比，半自动霰弹枪的枪声更'连续'——没有泵动的机械声间隔。枪声本身同样巨大，但连发节奏明显不同。注意听枪机自动循环的金属声。",
+      "description_en": "Compared to pump-action, the semi-auto shotgun has a more 'continuous' sound — no mechanical racking between shots. The report itself is equally massive, but the follow-up rhythm is notably different. Listen for the automatic bolt cycling."
+    },
+    {
+      "id": "50bmg-m82",
+      "name": ".50 BMG",
+      "name_zh": ".50 BMG",
+      "platform": "M82 / M107",
+      "category": "special",
+      "description_zh": "雷声般的巨响！.50 BMG 是枪声世界里的大BOSS。巨大的枪口制动器产生夸张的侧向冲击波，声音大到即使在远处也能感受到震动。像炮声一样。",
+      "description_en": "Thunderous ROAR! .50 BMG is the boss-level gunshot. The massive muzzle brake creates an exaggerated lateral shockwave. So loud you can feel the concussion at distance. Like a cannon going off."
+    },
+    {
+      "id": "762x54r-pkm",
+      "name": "7.62×54mmR",
+      "name_zh": "7.62×54mmR",
+      "platform": "PKM / SVD",
+      "category": "special",
+      "description_zh": "有底缘的老式全威力弹，声音厚实有力。PKM 机枪的持续射击声非常有特点——比 .308 略低沉，枪声有一种'老派'的质感。SVD 的单一枪声干脆而响亮。",
+      "description_en": "Rimmed full-power cartridge with a thick, authoritative report. The PKM's sustained fire has a very distinctive character — slightly deeper than .308 with an 'old-school' quality. The SVD's single shots are crisp and loud."
+    }
+  ]
+}

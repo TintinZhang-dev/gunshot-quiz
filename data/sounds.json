@@ -1,0 +1,19 @@
+{
+  "_note": "Sound file paths — WAV files included in /sounds/ directory (synthetically generated). Replace with real gunshot recordings for higher fidelity.",
+  "sounds": {
+    "9mm-glock17": "sounds/9mm-glock17.wav",
+    "45acp-m1911": "sounds/45acp-m1911.wav",
+    "357mag-revolver": "sounds/357mag-revolver.wav",
+    "22lr-pistol": "sounds/22lr-pistol.wav",
+    "556-m4": "sounds/556-m4.wav",
+    "762x39-ak47": "sounds/762x39-ak47.wav",
+    "762x51-m14": "sounds/762x51-m14.wav",
+    "545x39-ak74": "sounds/545x39-ak74.wav",
+    "9mm-mp5": "sounds/9mm-mp5.wav",
+    "45acp-ump45": "sounds/45acp-ump45.wav",
+    "12ga-pump": "sounds/12ga-pump.wav",
+    "12ga-semi": "sounds/12ga-semi.wav",
+    "50bmg-m82": "sounds/50bmg-m82.wav",
+    "762x54r-pkm": "sounds/762x54r-pkm.wav"
+  }
+}
